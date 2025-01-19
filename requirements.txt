@@ -1,0 +1,15 @@
+
+PyPDF2==3.0.1
+pandas==2.1.4
+sentence-transformers==3.3.1
+huggingface_hub==0.27.1
+accelerate==0.26.1
+peft==0.7.1
+bitsandbytes==0.40.2
+transformers==4.36.2
+FlagEmbedding
+streamlit==1.30.0
+openai==1.9.0
+json_repair==0.6.1
+hopsworks[python]
+python-dotenv
