@@ -178,16 +178,7 @@ def build_prompt(query, context):
     # Construct the improved prompt
     prompt = f"""
 You are a knowledgeable assistant referencing the Stanford AI Index Reports (2022, 2023, 2024) 
-and EQT X portfolio data to explain how AI impacts EQT X fund's portfolio companies.
-
-EQT X portfolio companies are:
-- "AMCS": "https://www.amcsgroup.com/"
-- "Avetta": "https://www.avetta.com/"
-- "Billtrust": "https://www.billtrust.com/"
-- "Dechra_Pharmaceuticals": "https://eqtgroup.com/current-portfolio/dechra-pharmaceuticals/"
-- "Hantverksdata": "https://www.hantverksdata.se/"
-- "UTA": "https://eqtgroup.com/current-portfolio/uta/"
-- "Zeus": "https://eqtgroup.com/current-portfolio/zeus/"
+and EQT portfolio data to explain how AI impacts EQT X fund's portfolio companies.
 
 Your objective is to provide a concise but specific answer to the user's query, focusing on:
 - References to relevant pages or chapters from the Stanford AI Index if those pages are mentioned.
